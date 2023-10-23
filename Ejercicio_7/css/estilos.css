@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: chocolate;
+}
+#contenedor{
+    width: 95%;
+    margin: 30px auto;
+}
+header{
+    background-color: beige;
+}
+header h1{
+    padding: 10px;
+    text-align: center;
+    color: chocolate;
+}
+header img{
+    width: 100%;
+    vertical-align: bottom;
+}
+nav{
+    background-color: yellow;
+}
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red; 
+}
+main{
+    display: flex;
+}
+aside{
+    width: 25%;
+    background-color: antiquewhite;
+}
+aside h2{
+    padding: 10px 10px;
+    color: blue;
+}
+aside ul{
+    padding: 0px 30px;
+}
+aside ol{
+    padding: 0px 30px;
+}
+section{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+section figure{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+section img{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+section figcaption{
+    margin: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: green;
+}
+aside p{
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+aside img{
+    width: 40%;
+    display: block;
+    margin: 30px auto;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
+footer p{
+    margin-bottom: 10px;
+    color: white;
+}
